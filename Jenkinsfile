@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     environment {
+             // jajdhakjslak
         // You need to change region,access key and secret key of yours
         AWS_REGION = 'ap-south-1'
         AWS_ACCESS_KEY_ID = credentials('your-aws-access-key-id')
